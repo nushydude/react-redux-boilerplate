@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $space;
+}
+
+.form__label {
+  margin-bottom: $space/2;
+  font-weight: 600;
+  text-align: left;
+}
+
+.form__input {
+  margin-bottom: $space
+}
+
+.form__error {
+  background: lighten($error, 55%);
+  border: 1px solid $error;
+  color: $error;
+  margin-bottom: $space;
+  padding: $space / 2;
+  font-style: italic;
+}
+
+.form__error--major {
+  font-weight: 600;
+}

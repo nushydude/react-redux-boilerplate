@@ -1,0 +1,17 @@
+.button {
+  background: $brand-color;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: $space;
+  outline: none;
+  padding: $space;
+}
+
+.button--link-text {
+  color: white;
+  font-weight: 500;
+  margin-right: $space;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
